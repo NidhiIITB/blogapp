@@ -1,1 +1,14 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blogger App</title>
+</head>
+<body>
+<h1>Blogger App</h1>
+<ul>
+{% for blog in blogs %}
+<li>{{ blog.title }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
